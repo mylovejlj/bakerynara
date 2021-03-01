@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.storeInner > h1{
+	text-align: center;
+    color: #2b2821;
+    font-size: 40px;
+    line-height: 48px;
+    padding: 25px 0 65px;
+    position: relative;
+    margin-top: 90px;
+}
+
+.storeInner > h1:after{
+	content: "";
+    display: block;
+    border-top: 1px solid #bd8a61;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -25px;
+}
+.storeInner{
+	height:1000px;
+	text-align:center;
+}
+.storeInfo{
+	width:500px;
+	height:430px;
+	float:left;
+	margin:60px 80px;
+	text-align:justify;
+}
+
+.storeInfo div{
+	padding:10px;
+	font-size:90%;
+}
+
+.storeInfo #way span{
+	margin-left:65px;
+}
+
+.storeImg{
+	width:600px;
+	height:350px;
+	float:left;
+	margin:60px 50px;
+}	
+.storeInfo > div > p{
+	margin-top:20px;
+}

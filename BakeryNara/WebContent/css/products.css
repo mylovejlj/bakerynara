@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.prdInner h1{
+	text-align: center;
+    color: #2b2821;
+    font-size: 40px;
+    line-height: 48px;
+    padding: 25px 0 65px;
+    position: relative;
+    margin-top: 90px;
+}
+
+.prdInner h1:after{
+	content: "";
+    display: block;
+    border-top: 1px solid #bd8a61;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -25px;
+}
+#products{
+	height:1700px;
+}
+#products .box{
+	width:300px;
+	height:450px;
+	float:left;
+	text-align:center;
+	padding:50px 20px;
+	border-bottom:1px solid #d6d4d3;
+}
+
+#products .name a{
+	font-size:130%;
+	font-weight:bold;
+	color:#000;
+	line-height:50px;
+}
+#products .summary{
+    height: 50px;
+	line-height:25px;
+}
+	
+#products .price {
+	color:brown;
+	font-size:110%;
+	font-weight:bold;
+	margin-top:50px;
+}
+#products .more{
+	color:brown;
+	line-height:50px;
+}
+#paging1, #paging2 {
+	width:200px;
+	height:50px;
+	line-height : 50px;
+	margin:0 auto;
+	text-align : center;
+	color:#000;
+}
+
+#paging1 li, #paging2 li{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	display : inline-block;
+	margin:0 10px;
+	border:1px solid brown;
+	border-radius:50%;
+}
+#paging1 li:first-child, #paging1 li:first-child a{
+	background-color:brown;
+	color:#fff;
+}
+#paging2 li:nth-child(2), #paging2 li:nth-child(2) a{
+	background-color:brown;
+	color:#fff;
+}
+
+#footerBanner img{
+	margin-top:90px;
+	border:1px solid brown;
+}
+
+
+
+
+

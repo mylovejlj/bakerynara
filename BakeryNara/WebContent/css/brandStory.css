@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+.viTop{
+	height:800px;
+}
+#viTopSlogan{
+	position:relative;
+	width:1250px;
+	height:220px;
+    background: #bd8961;
+    opacity: 0.95;
+	margin:100px auto;
+}
+#viTopSlogan p:first-child{
+	position:absolute;
+	color:#fff;
+	font-size:250%;
+	left:70px;
+	top:60px;
+	height:50px;
+	line-height:50px;
+	float:left;
+	text-align:center;	
+}
+#viTopSlogan p:first-child strong{
+	font-size:120%;
+}
+#viTopSlogan p:last-child{
+	position:absolute;
+	height:180px;
+	color:#fff;
+	font-size:150%;
+	left:400px;
+	top:35px;
+	margin-top : 0px;
+	padding-top : 0px;
+	line-height : 50px;
+	font-weight:bold;
+}
+#viTopSlogan p:last-child strong{
+	color:brown;
+}
+#viTopSlogan p:last-child:before{
+    position : absolute;
+	width: 1px;
+    height: 160px;
+	left:-45px;
+    content: "";
+    display: inline-block;
+    background: #fff;
+}
+#viTopImg{
+	width:300px;
+	height:460px;
+	background:url(../images/skil.jpg) no-repeat center center;
+	background-size: 300px 460px;
+	margin-left:250px;
+	margin-right:70px;
+	float:left;
+}
+#history{
+	margin-left:450px;
+	margin-top:170px;
+	font-size:130%;
+	font-weight:bold;
+	line-height:30px;
+}
+#history strong{
+    font-size: 120%;
+    margin-right: 15px;
+    font-weight: 700;
+	margin-left:20px;
+}
+#history ul{
+	display:inline-block;
+}
+#history ul li:before{
+    width: 8px;
+    height: 8px;
+    content: "";
+    display: block;
+    background: #bd8961;
+    border-radius: 50%;
+	position:relative;
+	top : 20px;	
+}
+
+#viMidSlogan{
+	position:relative;
+	width:100%;
+	height:330px;
+	margin-top:100px;
+	background:url(../images/introViMid.png) no-repeat center center;
+	color:#fff;
+	font-size:40px;
+	font-weight:bold;
+}
+#viMidSlogan p{
+	position:absolute;
+	width:1080px;
+	height:130px;
+	margin-left:200px;
+	margin-top:100px;
+}
+#viMidSlogan p strong:first-child{
+	color:brown;
+	font-size:60px;
+	font-weight:700;
+}
+#viMidSlogan p strong:last-child{
+	font-size:60px;
+	color:red;
+}
+
+#midContents{
+	width:950px;
+	height:850px;
+	margin-top:100px;
+	margin-left:200px;
+}
+#midContents div{
+	width:444px;
+	height:366px;
+	display:inline-block;
+	float:left;
+}
+#midContents p{
+	line-height:30px;
+	font-size:110%;
+	padding-left:45px;
+	padding-top:50px;
+}
+#midContents #pTitle{
+	font-size:150%;
+	font-weight:bold;
+	line-height:40px;
+}
+#midContents #pTitle strong{
+	font-size:140%;
+}
+#midContents #pTxt strong{
+	color:brown;
+}
+.viMid{
+	margin-bottom:-90px;
+}
